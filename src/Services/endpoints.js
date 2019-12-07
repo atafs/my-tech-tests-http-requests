@@ -1,4 +1,4 @@
-import BASE_URL from './Config/apiConfig';
+import BASE_URL from './config/apiConfig';
 
 const getEvents = `${BASE_URL}/events`;
 

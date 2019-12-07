@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Component from './Components/Component'
+import FuncComponent from './components/FuncComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Component />
+        <FuncComponent />
       </header>
     </div>
   );
