@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
-import FuncComponent from './components/FuncComponent';
 
-function App() {
+import Events from './components/events/Events';
+import ListOfBooks from './components/books/ListOfBooks';
+import './App.css';
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <FuncComponent />
+        <Events />
+        <ListOfBooks />
       </header>
     </div>
   );

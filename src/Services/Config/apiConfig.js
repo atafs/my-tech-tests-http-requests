@@ -1,4 +1,7 @@
 // url
-const BASE_URL = "https://mock-api.drinks.test.siliconrhino.io";
+const urls = {
+    siliconrhino: "https://mock-api.drinks.test.siliconrhino.io",
+    ontrack: "http://nyx.vima.ekt.gr:3000"
+};
 
-export { BASE_URL as default }
+export default urls;

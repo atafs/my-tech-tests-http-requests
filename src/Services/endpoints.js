@@ -1,5 +1,8 @@
-import BASE_URL from './config/apiConfig';
+import urls from './config/apiConfig';
 
-const getEvents = `${BASE_URL}/events`;
+const endpoints = {
+    events: `${urls.siliconrhino}/events`,
+    books: `${urls.ontrack}/api/books`
+};
 
-export { getEvents as default }
+export default endpoints;
